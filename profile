@@ -34,7 +34,7 @@ do
 done
 unset _path
 
-export LANG=en_GB LC_TIME=en_DK LC_COLLATE=C
+export LANG=en_GB.UTF-8 LC_TIME=en_DK.UTF-8 LC_COLLATE=C.UTF-8
 export GDM_LANG=$LANG
 export GEM_HOME="$HOME/.gem/ruby/2.3.0"
 export NODE_PATH="$HOME/.node/lib/node_modules"
