@@ -1,0 +1,2 @@
+#!/bin/bash
+LC_ALL=C LANG=C LANGUAGE=C exec "$@"
