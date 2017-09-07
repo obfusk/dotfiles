@@ -1,0 +1,2 @@
+#!/bin/bash
+rlwrap --always-readline python "$@"

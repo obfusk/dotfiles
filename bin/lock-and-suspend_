@@ -1,0 +1,2 @@
+#!/bin/bash
+xrandr-fu both_low; i3lock && systemctl suspend; sleep 5; xrandr-fu
