@@ -1,0 +1,2 @@
+source /usr/share/byobu/profiles/byoburc
+source $HOME/.screenrc.utf8

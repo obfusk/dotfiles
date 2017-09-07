@@ -1,0 +1,2 @@
+#!/bin/bash
+exec w_utf8 urxvt -e w_utf8 byobu -c ~/.byoburc.utf8 bash

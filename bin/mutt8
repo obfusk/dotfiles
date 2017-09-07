@@ -1,0 +1,5 @@
+#!/bin/bash
+exec w_utf8 urxvt \
+  -fn xft:Monospace:size=10,xft:IPAGothic:size=10 \
+  -fb xft:Monospace:size=10:bold,xft:IPAGothic:size=10:bold \
+  -e w_utf8 byobu -c ~/.byoburc.utf8 mutt
