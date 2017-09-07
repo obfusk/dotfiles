@@ -13,7 +13,9 @@ poweroff -> /sbin/poweroff
 py2 -> ../.dotfiles/bin/py2
 py3 -> /usr/bin/python3
 t8 -> ../.dotfiles/bin/t8
-w_utf8 -> ../.dotfiles/bin/w_utf8
+w_ja -> ../.dotfiles/bin/w_ja
+w_ja_ -> ../.dotfiles/bin/w_ja_
+w_latin1 -> ../.dotfiles/bin/w_latin1
 xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 ```
 
