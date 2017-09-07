@@ -2,12 +2,9 @@
 
 ## ~/bin
 
-==> TODO
-
 ```
 Factor -> /home/felix/tmp/build/factor/factor
 ci -> ../.dotfiles/bin/ci
-dvd2pi
 lock-and-suspend -> ../.dotfiles/bin/lock-and-suspend
 mutt8 -> ../.dotfiles/bin/mutt8
 node -> /usr/bin/nodejs
@@ -15,11 +12,9 @@ o -> /usr/bin/xdg-open
 poweroff -> /sbin/poweroff
 py2 -> ../.dotfiles/bin/py2
 py3 -> /usr/bin/python3
-t-br_
-t-tl_
 t8 -> ../.dotfiles/bin/t8
-w_utf8
-xrandr-fu
+w_utf8      TODO
+xrandr-fu   TODO
 ```
 
 ## ~
