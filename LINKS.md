@@ -14,8 +14,8 @@ py3 -> /usr/bin/python3
 t_latin1 -> ../.dotfiles/bin/t_latin1
 t_mutt -> ../.dotfiles/bin/t_mutt
 t_small -> ../.dotfiles/bin/t_small
+w_en -> ../.dotfiles/bin/w_en
 w_ja -> ../.dotfiles/bin/w_ja
-w_ja_ -> ../.dotfiles/bin/w_ja_
 w_latin1 -> ../.dotfiles/bin/w_latin1
 xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 ```

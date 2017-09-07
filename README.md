@@ -9,10 +9,10 @@ examples and documentation).
 
 NB: update/merge?!
 
-* https://github.com/obfusk/dev-misc (.vimrc)
+* https://github.com/obfusk/dev-misc (.vimrc) TODO
 * https://github.com/obfusk/i3-config (i3) OK
-* https://github.com/obfusk/scripts (scripts)
-* https://github.com/obfusk/sh-config (.bashrc etc.)
+* https://github.com/obfusk/scripts (scripts) TODO
+* https://github.com/obfusk/sh-config (.bashrc etc.) TODO
 
 ### gists
 
