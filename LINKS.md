@@ -14,7 +14,7 @@ py2 -> ../.dotfiles/bin/py2
 py3 -> /usr/bin/python3
 t8 -> ../.dotfiles/bin/t8
 w_utf8      TODO
-xrandr-fu   TODO
+xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 ```
 
 ## ~

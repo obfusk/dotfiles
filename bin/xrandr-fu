@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if xrandr | grep -q HDMI-1; then
+  hdmi=HDMI-1 lvds=LVDS-1
+else
+  hdmi=HDMI1 lvds=LVDS1
+fi
+
+if xrandr | grep ' connected' | grep -q $hdmi; then
+  if [ "$1" = both -o "$1" = both_low ]; then
+    xrandr --output $hdmi --primary --auto \
+           --output $lvds --auto --right-of $hdmi
+  else
+    xrandr --output $hdmi --primary --auto --output $lvds --off
+  fi
+else
+  xrandr --output $lvds --primary --auto --output $hdmi --off
+fi
+
+if [ "$1" = both_low ]; then
+  xbacklight -set 7
+else
+  xbacklight -set 100
+fi
