@@ -6,13 +6,14 @@
 Factor -> /home/felix/tmp/build/factor/factor
 ci -> ../.dotfiles/bin/ci
 lock-and-suspend -> ../.dotfiles/bin/lock-and-suspend
-mutt8 -> ../.dotfiles/bin/mutt8
 node -> /usr/bin/nodejs
 o -> /usr/bin/xdg-open
 poweroff -> /sbin/poweroff
 py2 -> ../.dotfiles/bin/py2
 py3 -> /usr/bin/python3
-t8 -> ../.dotfiles/bin/t8
+t_latin1 -> ../.dotfiles/bin/t_latin1
+t_mutt -> ../.dotfiles/bin/t_mutt
+t_small -> ../.dotfiles/bin/t_small
 w_ja -> ../.dotfiles/bin/w_ja
 w_ja_ -> ../.dotfiles/bin/w_ja_
 w_latin1 -> ../.dotfiles/bin/w_latin1

@@ -1,0 +1,7 @@
+#!/bin/bash
+[ "$#" -gt 0 ] || set -- -e byobu bash
+[ "$#" -eq 1 -a "$1" = -- ] && set --
+exec urxvt \
+  -fn xft:Monospace:size=9,xft:IPAGothic:size=9 \
+  -fb xft:Monospace:size=9:bold,xft:IPAGothic:size=9:bold \
+  "$@"

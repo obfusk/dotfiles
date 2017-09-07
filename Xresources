@@ -8,9 +8,10 @@ URxvt.boldFont:   xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold
 URxvt.letterSpace: -1
 #endif
 
-URxvt.keysym.C-1: command:\033]710;xft:Monospace:size=10,xft:IPAGothic:size=10\007\033]711;xft:Monospace:size=10:bold,xft:IPAGothic:size=10:bold\007
-URxvt.keysym.C-2: command:\033]710;xft:Monospace:size=11,xft:IPAGothic:size=11\007\033]711;xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold\007
-URxvt.keysym.C-3: command:\033]710;xft:Monospace:size=12,xft:IPAGothic:size=12\007\033]711;xft:Monospace:size=12:bold,xft:IPAGothic:size=12:bold\007
+URxvt.keysym.C-1: command:\033]710;xft:Monospace:size=9,xft:IPAGothic:size=9\007\033]711;xft:Monospace:size=9:bold,xft:IPAGothic:size=9:bold\007
+URxvt.keysym.C-2: command:\033]710;xft:Monospace:size=10,xft:IPAGothic:size=10\007\033]710;xft:Monospace:size=10:bold,xft:IPAGothic:size=10:bold\007
+URxvt.keysym.C-3: command:\033]710;xft:Monospace:size=11,xft:IPAGothic:size=11\007\033]711;xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold\007
+URxvt.keysym.C-4: command:\033]710;xft:Monospace:size=12,xft:IPAGothic:size=12\007\033]711;xft:Monospace:size=12:bold,xft:IPAGothic:size=12:bold\007
 
 URxvt.color0:     #2e3436
 URxvt.color8:     #555753

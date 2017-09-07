@@ -1,0 +1,2 @@
+#!/bin/bash
+exec w_latin1 urxvt -e byobu -c ~/.byoburc.latin1 bash
