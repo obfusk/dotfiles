@@ -21,7 +21,7 @@ xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 
 ```
 .Xresources -> .dotfiles/Xresources
-.byoburc.utf8 -> .dotfiles/byoburc.utf8
+.byoburc.latin1 -> .dotfiles/byoburc.latin1
 .dotfiles -> dev/misc/dotfiles
 .gvimrc -> opt/src/dev-misc/gvimrc
 .i3 -> dev/misc/i3
@@ -33,7 +33,7 @@ xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 .muttrc -> .mail/mutt/rc
 .profile -> .dotfiles/profile
 .screenrc -> .dotfiles/screenrc
-.screenrc.utf8 -> .dotfiles/screenrc.utf8
+.screenrc.latin1 -> .dotfiles/screenrc.latin1
 .vimrc -> opt/src/dev-misc/vimrc
 .xsession -> .i3/xsession
 ```
