@@ -1,2 +1,2 @@
 source /usr/share/byobu/profiles/byoburc
-source $HOME/.screenrc.utf8
+source $HOME/.screenrc.latin1
