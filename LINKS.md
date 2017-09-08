@@ -3,7 +3,7 @@
 ## ~/bin
 
 ```
-Factor -> /home/felix/tmp/build/factor/factor
+Factor -> ../tmp/build/factor/factor
 ci -> ../.dotfiles/bin/ci
 lock-and-suspend -> ../.dotfiles/bin/lock-and-suspend
 node -> /usr/bin/nodejs
