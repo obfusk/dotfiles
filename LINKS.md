@@ -37,6 +37,7 @@ xrandr-fu -> ../.dotfiles/bin/xrandr-fu
 .profile -> .dotfiles/profile
 .screenrc -> .dotfiles/screenrc
 .screenrc.latin1 -> .dotfiles/screenrc.latin1
+.setxkbmap.conf -> .dotfiles/setxkbmap.conf
 .vimrc -> opt/src/dev-misc/vimrc
 .xsession -> .i3/xsession
 ```
