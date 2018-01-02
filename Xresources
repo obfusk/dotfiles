@@ -14,6 +14,8 @@ URxvt.keysym.C-3: command:\033]710;xft:Monospace:size=11,xft:IPAGothic:size=11\0
 URxvt.keysym.C-4: command:\033]710;xft:Monospace:size=12,xft:IPAGothic:size=12\007\033]711;xft:Monospace:size=12:bold,xft:IPAGothic:size=12:bold\007
 URxvt.keysym.C-6: command:\033]710;xft:Monospace:size=13,xft:IPAGothic:size=13\007\033]711;xft:Monospace:size=13:bold,xft:IPAGothic:size=13:bold\007
 URxvt.keysym.C-7: command:\033]710;xft:Monospace:size=14,xft:IPAGothic:size=14\007\033]711;xft:Monospace:size=14:bold,xft:IPAGothic:size=14:bold\007
+URxvt.keysym.C-8: command:\033]710;xft:Monospace:size=15,xft:IPAGothic:size=15\007\033]711;xft:Monospace:size=15:bold,xft:IPAGothic:size=15:bold\007
+URxvt.keysym.C-9: command:\033]710;xft:Monospace:size=16,xft:IPAGothic:size=16\007\033]711;xft:Monospace:size=16:bold,xft:IPAGothic:size=16:bold\007
 
 URxvt.color0:     #2e3436
 URxvt.color8:     #555753
