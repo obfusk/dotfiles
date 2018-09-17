@@ -17,6 +17,9 @@ URxvt.keysym.C-7: command:\033]710;xft:Monospace:size=14,xft:IPAGothic:size=14\0
 URxvt.keysym.C-8: command:\033]710;xft:Monospace:size=15,xft:IPAGothic:size=15\007\033]711;xft:Monospace:size=15:bold,xft:IPAGothic:size=15:bold\007
 URxvt.keysym.C-9: command:\033]710;xft:Monospace:size=16,xft:IPAGothic:size=16\007\033]711;xft:Monospace:size=16:bold,xft:IPAGothic:size=16:bold\007
 
+URxvt.keysym.Shift-Up:   command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
 URxvt.color0:     #2e3436
 URxvt.color8:     #555753
 URxvt.color1:     #cc0000
