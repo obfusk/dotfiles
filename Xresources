@@ -1,11 +1,14 @@
-URxvt.background: #000000
-URxvt.foreground: #ffffff
-URxvt.scrollBar:  False
-URxvt.font:       xft:Monospace:size=11,xft:IPAGothic:size=11
-URxvt.boldFont:   xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold
+URxvt.background:   #000000
+URxvt.foreground:   #ffffff
+URxvt.scrollBar:    False
+URxvt.font:         xft:Monospace:size=11,xft:IPAGothic:size=11
+URxvt.boldFont:     xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold
+
+URxvt.iso14755:     false
+URxvt.iso14755_52:  false
 
 #ifdef CLNT_lithium
-URxvt.letterSpace: -1
+URxvt.letterSpace:  -1
 #endif
 
 URxvt.keysym.C-1: command:\033]710;xft:Monospace:size=9,xft:IPAGothic:size=9\007\033]711;xft:Monospace:size=9:bold,xft:IPAGothic:size=9:bold\007
