@@ -20,25 +20,15 @@ fi
 
 umask 077
 
-# set PATH so it includes user's private bin if it exists
-# if [ -d "$HOME/bin" ] ; then
-#     PATH="$HOME/bin:$PATH"
-# fi
-
-for _path in \
-  "$HOME/.local/bin" \
-  "$HOME/.node/bin" "$HOME/.gem/ruby/2.3.0/bin" \
-  "$HOME/opt/bin" "$HOME/bin" ;
-do
+for _path in "$HOME/.local/bin" "$HOME/opt/bin" "$HOME/bin"; do
   [ -d "$_path" ] && PATH="$_path:$PATH"
 done
 unset _path
 
 . "`which w_en`"
-export GDM_LANG=$LANG
-export GEM_HOME="$HOME/.gem/ruby/2.3.0"
-export NODE_PATH="$HOME/.node/lib/node_modules"
 
+export GDM_LANG=$LANG
+export NODE_PATH="$HOME/.node/lib/node_modules"
 export PROFILE_LOADED=yes
 
 # } MODIFIED

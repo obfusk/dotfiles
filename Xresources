@@ -1,11 +1,17 @@
 URxvt.background:   #000000
 URxvt.foreground:   #ffffff
 URxvt.scrollBar:    False
-URxvt.font:         xft:Monospace:size=11,xft:IPAGothic:size=11
-URxvt.boldFont:     xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold
-
 URxvt.iso14755:     false
 URxvt.iso14755_52:  false
+
+#ifdef CLNT_nihonium
+URxvt.font:         xft:Monospace:size=10,xft:IPAGothic:size=10
+URxvt.boldFont:     xft:Monospace:size=10:bold,xft:IPAGothic:size=10:bold
+Xft.dpi:            120
+#else
+URxvt.font:         xft:Monospace:size=11,xft:IPAGothic:size=11
+URxvt.boldFont:     xft:Monospace:size=11:bold,xft:IPAGothic:size=11:bold
+#endif
 
 #ifdef CLNT_lithium
 URxvt.letterSpace:  -1
