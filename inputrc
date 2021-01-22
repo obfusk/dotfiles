@@ -1,0 +1,10 @@
+# NB: reload w/ C-x C-r
+$include /etc/inputrc
+
+# for rlwrap
+set enable-bracketed-paste off
+
+$if mode=emacs
+"\e\e[C": shell-forward-word
+"\e\e[D": shell-backward-word
+$endif
