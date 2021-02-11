@@ -7,4 +7,5 @@ set enable-bracketed-paste off
 $if mode=emacs
 "\e\e[C": shell-forward-word
 "\e\e[D": shell-backward-word
+"\ew": shell-backward-kill-word
 $endif
