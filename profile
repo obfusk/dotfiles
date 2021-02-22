@@ -22,6 +22,7 @@ unset _path
 export GDM_LANG=$LANG
 export NODE_PATH="$HOME/.node/lib/node_modules"
 export DEBEMAIL='flx@obfusk.net' DEBFULLNAME='Felix C. Stegerman'
+export DEB_SIGN_KEYID=D5E4A51DF8D255B9FAC6A9BB2F9607F09B360F2D
 export PROFILE_LOADED=yes
 
 # } MODIFIED
